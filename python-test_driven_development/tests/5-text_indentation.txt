@@ -1,0 +1,50 @@
+The ``5-text_indentation`` module
+=================================
+
+Using ``text_indentation``
+--------------------------
+
+Importing the function:
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Normal text with expected triggers:
+    >>> text_indentation("Hello. World? This is a test: Python is fun.")
+    Hello.
+    <BLANKLINE>
+    World?
+    <BLANKLINE>
+    This is a test:
+    <BLANKLINE>
+    Python is fun.
+    <BLANKLINE>
+
+Text with multiple continuous spaces after punctuation:
+    >>> text_indentation("First.    Second?   Third:")
+    First.
+    <BLANKLINE>
+    Second?
+    <BLANKLINE>
+    Third:
+    <BLANKLINE>
+
+Error Handling - Argument is not a string:
+    >>> text_indentation(123)
+    Traceback (most recent call last):
+        ...
+    TypeError: text must be a string
+
+    >>> text_indentation(None)
+    Traceback (most recent call last):
+        ...
+    TypeError: text must be a string
+
+    >>> text_indentation(["list of text"])
+    Traceback (most recent call last):
+        ...
+    TypeError: text must be a string
+
+Error Handling - Missing required argument:
+    >>> text_indentation()
+    Traceback (most recent call last):
+        ...
+    TypeError: text_indentation() missing 1 required positional argument: 'text'
