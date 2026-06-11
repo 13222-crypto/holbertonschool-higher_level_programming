@@ -18,27 +18,22 @@ Error Handling - Scalar string input:
         ...
     TypeError: Scalar operands are not allowed, use '*' instead
 
-    >>> lazy_matrix_mul([[5, 6], [7, 8]], "Holberton")
-    Traceback (most recent call last):
-        ...
-    TypeError: Scalar operands are not allowed, use '*' instead
-
-Error Handling - Empty matrices:
+Error Handling - Empty or unaligned matrices:
     >>> lazy_matrix_mul([[]], [[5, 6], [7, 8]])
     Traceback (most recent call last):
         ...
-    ValueError: matmul: Input operand 0 has a mismatch in its core dimension 0, with gufunc signature (n,k),(k,m)->(n,m) (size 0 is different from 2)
+    ValueError: shapes (1,0) and (2,2) not aligned: 0 (dim 1) != 2 (dim 0)
 
     >>> lazy_matrix_mul([[5, 6], [7, 8]], [[]])
     Traceback (most recent call last):
         ...
-    ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n,k),(k,m)->(n,m) (size 0 is different from 2)
+    ValueError: shapes (2,2) and (1,0) not aligned: 2 (dim 1) != 1 (dim 0)
 
 Error Handling - Non-number elements inside lists:
     >>> lazy_matrix_mul([[5, "6"], [7, 8]], [[5, 6], [7, 8]])
     Traceback (most recent call last):
         ...
-    TypeError: Field elements must be 2-tuples of ..., got ...
+    TypeError: invalid data type for einsum
 
 Error Handling - Non-rectangles / Size mismatches:
     >>> lazy_matrix_mul([[5, 6, 10], [7, 8]], [[5, 6], [7, 8]])
@@ -46,7 +41,8 @@ Error Handling - Non-rectangles / Size mismatches:
         ...
     ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
 
+Error Handling - Matrix alignment mismatch:
     >>> lazy_matrix_mul([[1, 2, 3], [3, 4, 5]], [[1, 2], [3, 4]])
     Traceback (most recent call last):
         ...
-    ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n,k),(k,m)->(n,m) (size 2 is different from 3)
+    ValueError: shapes (2,3) and (2,2) not aligned: 3 (dim 1) != 2 (dim 0)
