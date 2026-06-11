@@ -60,9 +60,10 @@ def matrix_mul(m_a, m_b):
     len_b = len(m_b[0])
     for row in m_b:
         if len(row) != len_b:
-            raise TypeError("each row of m_b must be of the same size")
+            raise TypeError("each row of m_b must be "
+                            "of the same size")
 
-    # 6. التحقق من إمكانية الضرب (أعمدة المصفوفة الأولى = صفوف المصفوفة الثانية)
+    # 6. التحقق من إمكانية الضرب (أعمدة الأولى = صفوف الثانية)
     if len_a != len(m_b):
         raise ValueError("m_a and m_b can't be multiplied")
 
