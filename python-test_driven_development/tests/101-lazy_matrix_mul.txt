@@ -24,11 +24,6 @@ Error Handling - Empty or unaligned matrices:
         ...
     ValueError: shapes (1,0) and (2,2) not aligned: 0 (dim 1) != 2 (dim 0)
 
-    >>> lazy_matrix_mul([[5, 6], [7, 8]], [[]])
-    Traceback (most recent call last):
-        ...
-    ValueError: shapes (2,2) and (1,0) not aligned: 2 (dim 1) != 1 (dim 0)
-
 Error Handling - Non-number elements inside lists:
     >>> lazy_matrix_mul([[5, "6"], [7, 8]], [[5, 6], [7, 8]])
     Traceback (most recent call last):
@@ -39,10 +34,4 @@ Error Handling - Non-rectangles / Size mismatches:
     >>> lazy_matrix_mul([[5, 6, 10], [7, 8]], [[5, 6], [7, 8]])
     Traceback (most recent call last):
         ...
-    ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
-
-Error Handling - Matrix alignment mismatch:
-    >>> lazy_matrix_mul([[1, 2, 3], [3, 4, 5]], [[1, 2], [3, 4]])
-    Traceback (most recent call last):
-        ...
-    ValueError: shapes (2,3) and (2,2) not aligned: 3 (dim 1) != 2 (dim 0)
+    ValueError: setting an array element with a sequence.

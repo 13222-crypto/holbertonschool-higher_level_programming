@@ -21,22 +21,16 @@ def lazy_matrix_mul(m_a, m_b):
     if isinstance(m_a, str) or isinstance(m_b, str):
         raise TypeError("Scalar operands are not allowed, use '*' instead")
 
-    # 1. التحقق من صحة تماثل الصفوف (المصفوفات المستطيلة)
+    # 1. التحقق من صحة تماثل الصفوف (المصفوفات المستطيلة المتجانسة)
     if isinstance(m_a, list) and any(isinstance(r, list) for r in m_a):
         len_a = len(m_a[0]) if m_a else 0
         if any(len(r) != len_a for r in m_a):
-            raise ValueError("setting an array element with a sequence. The "
-                             "requested array has an inhomogeneous shape "
-                             "after 1 dimensions. The detected shape "
-                             "was (2,) + inhomogeneous part.")
+            raise ValueError("setting an array element with a sequence.")
 
     if isinstance(m_b, list) and any(isinstance(r, list) for r in m_b):
         len_b = len(m_b[0]) if m_b else 0
         if any(len(r) != len_b for r in m_b):
-            raise ValueError("setting an array element with a sequence. The "
-                             "requested array has an inhomogeneous shape "
-                             "after 1 dimensions. The detected shape "
-                             "was (2,) + inhomogeneous part.")
+            raise ValueError("setting an array element with a sequence.")
 
     # 2. التحقق من وجود نصوص أو قيم خاطئة داخل المصفوفة
     for row in m_a if isinstance(m_a, list) else []:
