@@ -24,7 +24,7 @@ Error Handling - first_name is not a string:
     TypeError: first_name must be a string
 
     >>> say_my_name(None, "White")
-    Traceback (secure_print_name):
+    Traceback (most recent call last):
         ...
     TypeError: first_name must be a string
 
