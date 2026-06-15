@@ -14,3 +14,4 @@ This project is an introduction to Object-Oriented Programming (OOP) in Python 3
 | Task | File | Description |
 | --- | --- | --- |
 | **0. My first square** | `0-square.py` | Defines an empty class `Square` with structural documentation. |
+| **1. Square with size** | `1-square.py` | Defines a class `Square` with a private instance attribute `size`. |
