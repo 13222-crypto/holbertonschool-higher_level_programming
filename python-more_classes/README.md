@@ -19,3 +19,4 @@ This project dives deeper into Object-Oriented Programming (OOP) in Python 3. It
 | **3. String representation** | `3-rectangle.py` | Implements the `__str__` magic method to print the rectangle visually using `#`. |
 | **4. Eval is magic** | `4-rectangle.py` | Implements the `__repr__` magic method to recreate instances using `eval()`. |
 | **5. Detect instance deletion** | `5-rectangle.py` | Overloads the `__del__` destructor method to handle and announce instance deletion. |
+| **6. How many instances** | `6-rectangle.py` | Uses a class attribute `number_of_instances` to dynamically track active objects. |
