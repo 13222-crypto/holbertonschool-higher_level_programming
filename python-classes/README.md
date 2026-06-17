@@ -17,3 +17,4 @@ This project is an introduction to Object-Oriented Programming (OOP) in Python 3
 | **1. Square with size** | `1-square.py` | Defines a class `Square` with a private instance attribute `size`. |
 | **2. Size validation** | `2-square.py` | Defines a class `Square` with type and value validation for `size`. |
 | **3. Area of a square** | `3-square.py` | Adds a public instance method `area` to compute the square's area. |
+| **4. Access and update private attribute** | `4-square.py` | Implements `@property` getter and setter for private attribute `size`. |
