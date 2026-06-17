@@ -20,3 +20,4 @@ This project is an introduction to Object-Oriented Programming (OOP) in Python 3
 | **4. Access and update private attribute** | `4-square.py` | Implements `@property` getter and setter for private attribute `size`. |
 | **5. Printing a square** | `5-square.py` | Adds a public instance method `my_print` to print the square using `#`. |
 | **6. Coordinates of a square** | `6-square.py` | Adds a private `position` attribute with validation and updates `my_print`. |
+| **7. Singly linked list** | `100-singly_linked_list.py` | Implements a sorted singly linked list with Node validation. |
