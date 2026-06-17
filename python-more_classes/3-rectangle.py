@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines a Rectangle class with private attributes width and height,
+This module defines a Rectangle class with private attributes,
 validation properties, geometric methods, and a string representation.
 """
 

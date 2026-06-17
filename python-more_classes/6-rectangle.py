@@ -7,19 +7,19 @@ validation properties, geometric methods, and instance tracking.
 
 class Rectangle:
     """
-    Defines a rectangle by width and height, tracking the number of instances.
+    Defines a rectangle by width and height, tracking instances.
 
     Attributes:
-        number_of_instances (int): Total number of active instances (class attr).
-        __width (int): The width of the rectangle (instance attr).
-        __height (int): The height of the rectangle (instance attr).
+        number_of_instances (int): Total active instances.
+        __width (int): The width of the rectangle.
+        __height (int): The height of the rectangle.
     """
 
     number_of_instances = 0
 
     def __init__(self, width=0, height=0):
         """
-        Initializes a new Rectangle instance and increments instance count.
+        Initializes a new Rectangle instance and increments count.
 
         Args:
             width (int): The width of the rectangle.
