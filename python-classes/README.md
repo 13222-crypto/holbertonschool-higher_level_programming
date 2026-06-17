@@ -21,3 +21,4 @@ This project is an introduction to Object-Oriented Programming (OOP) in Python 3
 | **5. Printing a square** | `5-square.py` | Adds a public instance method `my_print` to print the square using `#`. |
 | **6. Coordinates of a square** | `6-square.py` | Adds a private `position` attribute with validation and updates `my_print`. |
 | **7. Singly linked list** | `100-singly_linked_list.py` | Implements a sorted singly linked list with Node validation. |
+| **8. Print Square instance** | `101-square.py` | Integrates `__str__` method to print the Square instance directly. |
