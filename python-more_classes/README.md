@@ -22,3 +22,4 @@ This project dives deeper into Object-Oriented Programming (OOP) in Python 3. It
 | **6. How many instances** | `6-rectangle.py` | Uses a class attribute `number_of_instances` to dynamically track active objects. |
 | **7. Change representation** | `7-rectangle.py` | Introduces a customizable `print_symbol` class attribute for flexible rendering. |
 | **8. Compare rectangles** | `8-rectangle.py` | Employs a `@staticmethod` to compare two rectangle objects based on area values. |
+| **9. A square is a rectangle** | `9-rectangle.py` | Implements a `@classmethod` factor method to generate square-proportioned instances. |
