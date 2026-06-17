@@ -16,3 +16,4 @@ This project dives deeper into Object-Oriented Programming (OOP) in Python 3. It
 | **0. Simple rectangle** | `0-rectangle.py` | Defines an empty class `Rectangle` with basic structural documentation. |
 | **1. Real definition of a rectangle** | `1-rectangle.py` | Implements private `width` and `height` attributes with property getters and setters. |
 | **2. Area and Perimeter** | `2-rectangle.py` | Adds public instance methods `area` and `perimeter` to perform geometric calculations. |
+| **3. String representation** | `3-rectangle.py` | Implements the `__str__` magic method to print the rectangle visually using `#`. |
