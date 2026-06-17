@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-This module defines a Rectangle class with private attributes width and height,
+This module defines a Rectangle class with private attributes,
 validation properties, geometric methods, and string representations.
 """
 
 
 class Rectangle:
     """
-    Defines a rectangle by width and height with validations and representations.
+    Defines a rectangle by width and height with validations.
 
     Attributes:
         __width (int): The width of the rectangle.
