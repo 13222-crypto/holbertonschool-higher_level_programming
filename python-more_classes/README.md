@@ -13,4 +13,4 @@ This project dives deeper into Object-Oriented Programming (OOP) in Python 3. It
 
 | Task | File | Description |
 | --- | --- | --- |
-| **0. Simple rectangle** | `0-rectangle.py` | Defines an empty class `Rectangle` with basic structural documentation. |
+| **0. Simple rectangle** | `0-rectangle.py` | Defines an empty class `Rectangle` with basic docstrings. |
