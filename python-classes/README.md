@@ -22,3 +22,4 @@ This project is an introduction to Object-Oriented Programming (OOP) in Python 3
 | **6. Coordinates of a square** | `6-square.py` | Adds a private `position` attribute with validation and updates `my_print`. |
 | **7. Singly linked list** | `100-singly_linked_list.py` | Implements a sorted singly linked list with Node validation. |
 | **8. Print Square instance** | `101-square.py` | Integrates `__str__` method to print the Square instance directly. |
+| **9. Compare 2 squares** | `102-square.py` | Overloads comparison operators to compare Square instances based on area. |
