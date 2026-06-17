@@ -7,12 +7,11 @@ validation properties, geometric methods, and a string representation.
 
 class Rectangle:
     """
-    Defines a rectangle by its width and height, incorporating validation properties,
-    geometric calculations, and visual string rendering.
+    Defines a rectangle by width and height with validation.
 
     Attributes:
-        __width (int): The width of the rectangle (private).
-        __height (int): The height of the rectangle (private).
+        __width (int): The width of the rectangle.
+        __height (int): The height of the rectangle.
     """
 
     def __init__(self, width=0, height=0):
@@ -20,8 +19,8 @@ class Rectangle:
         Initializes a new Rectangle instance.
 
         Args:
-            width (int): The width of the rectangle. Defaults to 0.
-            height (int): The height of the rectangle. Defaults to 0.
+            width (int): The width of the rectangle.
+            height (int): The height of the rectangle.
         """
         self.width = width
         self.height = height
@@ -96,7 +95,7 @@ class Rectangle:
         Calculates the perimeter of the rectangle.
 
         Returns:
-            int: The perimeter (2 * (width + height)), or 0 if either side is 0.
+            int: The perimeter, or 0 if either side is 0.
         """
         if self.__width == 0 or self.__height == 0:
             return 0
@@ -104,7 +103,8 @@ class Rectangle:
 
     def __str__(self):
         """
-        Returns a printable string representation of the rectangle using '#'.
+        Returns a printable string representation of the rectangle.
+
         If width or height is 0, returns an empty string.
 
         Returns:
