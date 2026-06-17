@@ -13,4 +13,5 @@ This project dives deeper into Object-Oriented Programming (OOP) in Python 3. It
 
 | Task | File | Description |
 | --- | --- | --- |
-| **0. Simple rectangle** | `0-rectangle.py` | Defines an empty class `Rectangle` with basic docstrings. |
+| **0. Simple rectangle** | `0-rectangle.py` | Defines an empty class `Rectangle` with basic structural documentation. |
+| **1. Real definition of a rectangle** | `1-rectangle.py` | Implements private `width` and `height` attributes with property getters and setters. |
