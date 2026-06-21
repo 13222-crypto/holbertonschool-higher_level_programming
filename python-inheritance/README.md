@@ -25,3 +25,4 @@ This repository covers the foundational and advanced concepts of Object-Oriented
 | **9. Full rectangle** | `9-rectangle.py` | Extends the `Rectangle` subclass with an active `area()` solver and a dedicated `__str__` format. |
 | **10. Square #1** | `10-square.py` | A `Square` subclass inheriting from `Rectangle` that initialises equal boundaries via `super()`. |
 | **11. Square #2** | `11-square.py` | Overrides the inherited `__str__` method to accurately output the square dimensions as `[Square]`. |
+| **12. My integer** | `100-my_int.py` | An advanced `MyInt` class inheriting from `int` that swaps the logic of `==` and `!=` magic methods. |
