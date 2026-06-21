@@ -26,3 +26,4 @@ This repository covers the foundational and advanced concepts of Object-Oriented
 | **10. Square #1** | `10-square.py` | A `Square` subclass inheriting from `Rectangle` that initialises equal boundaries via `super()`. |
 | **11. Square #2** | `11-square.py` | Overrides the inherited `__str__` method to accurately output the square dimensions as `[Square]`. |
 | **12. My integer** | `100-my_int.py` | An advanced `MyInt` class inheriting from `int` that swaps the logic of `==` and `!=` magic methods. |
+| **13. Can I?** | `101-add_attribute.py` | Safely adds qualities to expandable items without relying on try/except blocks. |
