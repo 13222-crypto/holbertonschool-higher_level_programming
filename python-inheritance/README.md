@@ -24,3 +24,4 @@ This repository covers the foundational and advanced concepts of Object-Oriented
 | **8. Rectangle** | `8-rectangle.py` | A `Rectangle` subclass that inherits from `BaseGeometry` and secures private dimensions via validation. |
 | **9. Full rectangle** | `9-rectangle.py` | Extends the `Rectangle` subclass with an active `area()` solver and a dedicated `__str__` format. |
 | **10. Square #1** | `10-square.py` | A `Square` subclass inheriting from `Rectangle` that initialises equal boundaries via `super()`. |
+| **11. Square #2** | `11-square.py` | Overrides the inherited `__str__` method to accurately output the square dimensions as `[Square]`. |
