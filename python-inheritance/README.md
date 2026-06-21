@@ -14,3 +14,4 @@ This repository covers the foundational and advanced concepts of Object-Oriented
 | Task | File | Description |
 | --- | --- | --- |
 | **0. Lookup** | `0-lookup.py` | A function returning a list of available attributes and methods of an object using `dir()`. |
+| **1. My list** | `1-my_list.py` | A custom class inheriting from `list` with a specialized method to print sorted elements. |
