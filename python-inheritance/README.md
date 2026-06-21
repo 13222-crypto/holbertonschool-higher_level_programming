@@ -20,3 +20,4 @@ This repository covers the foundational and advanced concepts of Object-Oriented
 | **4. Only sub class of** | `4-inherits_from.py` | Detects if an object's class is a strict subclass of a specified type, ignoring direct identity. |
 | **5. Geometry module** | `5-base_geometry.py` | An empty class `BaseGeometry` built to serve as a base class for geometric shapes. |
 | **6. Improve Geometry** | `6-base_geometry.py` | Adds an `area()` method to `BaseGeometry` that enforces subclass overriding by raising an Exception. |
+| **7. Integer validator** | `7-base_geometry.py` | Implements an `integer_validator()` utility method to strictly evaluate parameter type and bounds. |
