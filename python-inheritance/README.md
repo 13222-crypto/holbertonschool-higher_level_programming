@@ -18,3 +18,4 @@ This repository covers the foundational and advanced concepts of Object-Oriented
 | **2. Exact same object** | `2-is_same_class.py` | Validates if an object is an exact instance of a class, bypassing subclass checks via `type()`. |
 | **3. Same class or inherit from** | `3-is_kind_of_class.py` | Checks if an object is an instance or inherited instance of a class using `isinstance()`. |
 | **4. Only sub class of** | `4-inherits_from.py` | Detects if an object's class is a strict subclass of a specified type, ignoring direct identity. |
+| **5. Geometry module** | `5-base_geometry.py` | An empty class `BaseGeometry` built to serve as a base class for geometric shapes. |
