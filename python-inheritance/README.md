@@ -23,3 +23,4 @@ This repository covers the foundational and advanced concepts of Object-Oriented
 | **7. Integer validator** | `7-base_geometry.py` | Implements an `integer_validator()` utility method to strictly evaluate parameter type and bounds. |
 | **8. Rectangle** | `8-rectangle.py` | A `Rectangle` subclass that inherits from `BaseGeometry` and secures private dimensions via validation. |
 | **9. Full rectangle** | `9-rectangle.py` | Extends the `Rectangle` subclass with an active `area()` solver and a dedicated `__str__` format. |
+| **10. Square #1** | `10-square.py` | A `Square` subclass inheriting from `Rectangle` that initialises equal boundaries via `super()`. |
