@@ -21,3 +21,4 @@ This repository covers the foundational and advanced concepts of Object-Oriented
 | **5. Geometry module** | `5-base_geometry.py` | An empty class `BaseGeometry` built to serve as a base class for geometric shapes. |
 | **6. Improve Geometry** | `6-base_geometry.py` | Adds an `area()` method to `BaseGeometry` that enforces subclass overriding by raising an Exception. |
 | **7. Integer validator** | `7-base_geometry.py` | Implements an `integer_validator()` utility method to strictly evaluate parameter type and bounds. |
+| **8. Rectangle** | `8-rectangle.py` | A `Rectangle` subclass that inherits from `BaseGeometry` and secures private dimensions via validation. |
