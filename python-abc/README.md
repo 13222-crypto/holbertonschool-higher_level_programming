@@ -13,3 +13,4 @@ This directory focuses on core advanced Object-Oriented Programming (OOP) archit
 | Task | File | Description |
 | --- | --- | --- |
 | **0. Abstract Animal Class** | `task_00_abc.py` | Employs Python's `abc` package to model rigid inheritance constraints via `@abstractmethod`. |
+| **1. Shapes, Interfaces, and Duck Typing** | `task_01_duck_typing.py` | Designs a geometric interface framework evaluated through dynamic polymorphism and duck typing. |
