@@ -1,6 +1,6 @@
 # Python - Abstract Classes and Interfaces
 
-This directory focuses on core advanced Object-Oriented Programming (OOP) architectures in Python 3, covering Abstract Base Classes (ABCs), Interfaces, Duck Typing, Custom Data Structures, and Multiple Inheritance.
+This directory focuses on core advanced Object-Oriented Programming (OOP) architectures in Python 3, covering Abstract Base Classes (ABCs), Interfaces, Duck Typing, Custom Data Structures, and Mixins.
 
 ## Environment
 
@@ -17,3 +17,4 @@ This directory focuses on core advanced Object-Oriented Programming (OOP) archit
 | **2. Extending the Python List** | `task_02_verboselist.py` | Inherits from the standard built-in `list` class to inject custom logging statements safely. |
 | **3. CountedIterator** | `task_03_countediterator.py` | Overrides the `__next__` method within an iterator structure to track sequential processing states. |
 | **4. The Enigmatic FlyingFish** | `task_04_flyingfish.py` | Explores multiple inheritance mechanics, overriding boundaries, and Method Resolution Order (MRO). |
+| **5. The Mystical Dragon** | `task_05_dragon.py` | Utilizes focused Mixins to inject discrete modular behavioral capabilities into class structures. |
