@@ -1,5 +1,6 @@
 #!/usr/bin/python3
- mixins modular behaviors in Python.
+"""
+This module demonstrates the application of Mixins in Python.
 It constructs standalone capability injectors to enhance the Dragon class.
 """
 
