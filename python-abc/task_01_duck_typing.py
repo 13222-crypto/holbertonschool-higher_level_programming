@@ -39,7 +39,7 @@ class Circle(Shape):
         Args:
             radius (int, float): The radial reach from the center.
         """
-        self.radius = radius
+        self.__radius = radius
 
     def area(self):
         """
@@ -48,7 +48,7 @@ class Circle(Shape):
         Returns:
             float: Total surface area.
         """
-        return math.pi * (self.radius ** 2)
+        return math.pi * (self.__radius ** 2)
 
     def perimeter(self):
         """
@@ -57,7 +57,7 @@ class Circle(Shape):
         Returns:
             float: Total outer boundary length.
         """
-        return 2 * math.pi * self.radius
+        return 2 * math.pi * self.__radius
 
 
 class Rectangle(Shape):
@@ -73,8 +73,8 @@ class Rectangle(Shape):
             width (int, float): The structural width of the shape.
             height (int, float): The structural height of the shape.
         """
-        self.width = width
-        self.height = height
+        self.__width = width
+        self.__height = height
 
     def area(self):
         """
@@ -83,7 +83,7 @@ class Rectangle(Shape):
         Returns:
             int, float: Total internal surface units.
         """
-        return self.width * self.height
+        return self.__width * self.__height
 
     def perimeter(self):
         """
@@ -92,7 +92,7 @@ class Rectangle(Shape):
         Returns:
             int, float: Combined outer edges length.
         """
-        return 2 * (self.width + self.height)
+        return 2 * (self.__width + self.__height)
 
 
 def shape_info(shape):
