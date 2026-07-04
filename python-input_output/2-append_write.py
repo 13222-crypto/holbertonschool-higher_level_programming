@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 This module provides a function for appending text data onto files.
-It demonstrates basic file appending operations with explicit character counting.
+It demonstrates basic file appending operations.
 """
 
 
