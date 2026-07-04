@@ -15,3 +15,4 @@ This project focuses on the concepts of marshaling and serialization. It explore
 | **0. Basic Serialization** | `task_00_basic_serialization.py` | Serializes a Python dictionary to a JSON file and deserializes it back. |
 | **1. Pickling Custom Classes** | `task_01_pickle.py` | Implements custom object serialization and deserialization via pickle module. |
 | **2. Converting CSV Data to JSON Format** | `task_02_csv.py` | Converts a CSV file into a JSON file after structural transformation. |
+| **3. Serializing and Deserializing with XML** | `task_03_xml.py` | Serializes a dictionary into XML format and parses it back to a dictionary. |
