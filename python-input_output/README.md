@@ -21,3 +21,4 @@ This project covers file handling operations in Python 3. It explores how to rea
 | **6. Create object from a JSON file** | `6-load_from_json_file.py` | Deserializes a JSON file content back into a Python object data structure. |
 | **7. Load, add, save** | `7-add_item.py` | Adds all arguments to a Python list and saves them to a file encoded in JSON. |
 | **8. Class to JSON** | `8-class_to_json.py` | Returns the dictionary description with simple data structure for JSON serialization. |
+| **9. Student to JSON** | `9-student.py` | Defines a student class with a method to retrieve its dictionary representation. |
