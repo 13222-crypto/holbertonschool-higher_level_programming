@@ -25,3 +25,4 @@ This project covers file handling operations in Python 3. It explores how to rea
 | **10. Student to JSON with filter** | `10-student.py` | Enhances Student class to filter retrieved attributes using an optional list. |
 | **11. Student to disk and reload** | `11-student.py` | Adds a method to reload instance attributes dynamically from a JSON dictionary. |
 | **12. Pascal's Triangle** | `12-pascal_triangle.py` | Returns a list of lists of integers representing the Pascal’s triangle of n. |
+| **13. Search and update** | `100-append_after.py` | Inserts a line of text to a file after each line containing a specific string. |
