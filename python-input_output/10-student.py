@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-This module defines a Student class with filtered JSON serialization capabilities.
-It expands on basic attribute parsing based on a list of specified strings.
+This module defines a Student class with filtered JSON serialization.
+It parses attributes based on a list of specified strings.
 """
 
 
