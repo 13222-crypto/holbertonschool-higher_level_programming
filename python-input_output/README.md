@@ -19,3 +19,4 @@ This project covers file handling operations in Python 3. It explores how to rea
 | **4. From JSON string to Object** | `4-from_json_string.py` | Decodes a JSON string back into its original Python data structure representation. |
 | **5. Save Object to a file** | `5-save_to_json_file.py` | Serializes and writes a Python data structure into a text file using JSON formatting. |
 | **6. Create object from a JSON file** | `6-load_from_json_file.py` | Deserializes a JSON file content back into a Python object data structure. |
+| **7. Load, add, save** | `7-add_item.py` | Adds all arguments to a Python list and saves them to a file encoded in JSON. |
