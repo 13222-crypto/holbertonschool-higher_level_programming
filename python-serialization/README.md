@@ -13,3 +13,4 @@ This project focuses on the concepts of marshaling and serialization. It explore
 | Task | File | Description |
 | --- | --- | --- |
 | **0. Basic Serialization** | `task_00_basic_serialization.py` | Serializes a Python dictionary to a JSON file and deserializes it back. |
+| **1. Pickling Custom Classes** | `task_01_pickle.py` | Implements custom object serialization and deserialization via pickle module. |
