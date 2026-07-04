@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines a function that inserts a line of text to a file,
+This module defines a function that inserts a line of text into a file
 after each line containing a specific string.
 """
 
@@ -11,16 +11,16 @@ def append_after(filename="", search_string="", new_string=""):
     a specific string.
 
     Args:
-        filename (str): The name of the file.
-        search_string (str): The string to search for within the file.
-        new_string (str): The string to insert after the found line.
+        filename (str): The name of the file to modify.
+        search_string (str): The string to look for in each line.
+        new_string (str): The string to insert after lines that match.
     """
-    text = ""
+    lines_buffer = []
     with open(filename, "r", encoding="utf-8") as f:
         for line in f:
-            text += line
+            lines_buffer.append(line)
             if search_string in line:
-                text += new_string
+                lines_buffer.append(new_string)
 
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(text)
+        f.writelines(lines_buffer)
