@@ -17,3 +17,4 @@ This project covers file handling operations in Python 3. It explores how to rea
 | **2. Append to a file** | `2-append_write.py` | Appends a string at the end of a text file (UTF8) and returns the number of characters added. |
 | **3. To JSON string** | `3-to_json_string.py` | Returns the JSON representation of an object (string) using serialization. |
 | **4. From JSON string to Object** | `4-from_json_string.py` | Decodes a JSON string back into its original Python data structure representation. |
+| **5. Save Object to a file** | `5-save_to_json_file.py` | Serializes and writes a Python data structure into a text file using JSON formatting. |
