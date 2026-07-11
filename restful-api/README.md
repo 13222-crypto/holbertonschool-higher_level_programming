@@ -1,21 +1,19 @@
 # RESTful API Project
 
-## Task 2: Consuming and processing data from an API using Python
-Fetches data from JSONPlaceholder using `requests` and exports it to a CSV file (`posts.csv`).
+## Task 2: Consuming data from an API
+Uses Python `requests` library to fetch data and export it into a CSV file.
 
-## Task 3: Develop a simple API using Python with the `http.server` module
-An HTTP server built entirely with Python's built-in `http.server` module.
+## Task 3: Simple API with http.server
+A basic native Python server providing custom path routing.
 
-## Task 4: Develop a Simple API using Python with Flask
-A robust and lightweight RESTful API implemented using the Flask web framework. It supports memory storage, user creation via POST requests, and field validation.
+## Task 4: Simple API with Flask
+A lightweight Flask API simulating CRUD capabilities in memory.
+
+## Task 5: API Security and Authentication Techniques
+Implements security layers on API endpoints using HTTP Basic Auth and Token-based Auth via JWT.
 
 ### Endpoints:
-* `GET /` -> Returns greeting text.
-* `GET /status` -> Returns `OK`.
-* `GET /data` -> Returns a JSON list of all stored usernames.
-* `GET /users/<username>` -> Returns full details of a specific user.
-* `POST /add_user` -> Creates a new user (Requires valid JSON body).
-
-### How to run Task 4:
-```bash
-python3 task_04_flask.py
+* `GET /basic-protected` -> Access secured by Basic Auth.
+* `POST /login` -> Exchanges valid credentials for a JWT Token.
+* `GET /jwt-protected` -> Standard route protected by JWT.
+* `GET /admin-only` -> Route restricted to users with the 'admin' role.
