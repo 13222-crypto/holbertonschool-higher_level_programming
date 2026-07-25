@@ -14,3 +14,4 @@ This project covers advanced SQL concepts in MySQL 8.0 including user privilege 
 | --- | --- | --- |
 | **0. My privileges!** | `0-privileges.sql` | Lists all privileges of the MySQL users `user_0d_1` and `user_0d_2` on localhost. |
 | **1. Root user** | `1-create_user.sql` | Creates user_0d_1 with full privileges and password user_0d_1_pwd. |
+| **2. Read user** | `2-create_read_user.sql` | Creates database hbtn_0d_2 and user_0d_2 with SELECT privilege only. |
