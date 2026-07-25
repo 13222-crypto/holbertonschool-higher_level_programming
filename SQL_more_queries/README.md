@@ -16,3 +16,4 @@ This project covers advanced SQL concepts in MySQL 8.0 including user privilege 
 | **1. Root user** | `1-create_user.sql` | Creates user_0d_1 with full privileges and password user_0d_1_pwd. |
 | **2. Read user** | `2-create_read_user.sql` | Creates database hbtn_0d_2 and user_0d_2 with SELECT privilege only. |
 | **3. Always a name** | `3-force_name.sql` | Creates the table force_name with non-null name attribute. |
+| **4. ID can't be null** | `4-never_empty.sql` | Creates the table id_not_null with default value 1 for id. |
