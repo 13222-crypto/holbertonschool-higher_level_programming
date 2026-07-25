@@ -32,3 +32,4 @@ This project covers advanced SQL concepts in MySQL 8.0 including user privilege 
 | **17. Not my genre** | `100-not_my_genres.sql` | Lists all genres not linked to the show Dexter. |
 | **18. No Comedy tonight!** | `101-not_a_comedy.sql` | Lists all shows without the genre Comedy. |
 | **19. Rotten tomatoes** | `102-rating_shows.sql` | Lists all shows by their total sum of ratings. |
+| **20. Best genre** | `103-rating_genres.sql` | Lists all genres by their total sum of ratings. |
