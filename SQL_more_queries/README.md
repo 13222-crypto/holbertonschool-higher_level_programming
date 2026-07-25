@@ -21,3 +21,4 @@ This project covers advanced SQL concepts in MySQL 8.0 including user privilege 
 | **6. States table** | `6-states.sql` | Creates database hbtn_0d_usa and table states with auto-increment primary key. |
 | **7. Cities table** | `7-cities.sql` | Creates table cities with foreign key constraint referencing states table. |
 | **8. Cities of California** | `8-cities_of_california_subquery.sql` | Lists all cities of California without using JOIN. |
+| **9. Cities by States** | `9-cities_by_state_join.sql` | Lists all cities in database with state names using JOIN. |
