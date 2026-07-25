@@ -26,3 +26,4 @@ This project covers advanced SQL concepts in MySQL 8.0 including user privilege 
 | **11. Genre ID for all shows** | `11-genre_id_all_shows.sql` | Lists all TV shows displaying NULL for shows without genres. |
 | **12. No genre** | `12-no_genre.sql` | Lists all TV shows contained in hbtn_0d_tvshows without a genre linked. |
 | **13. Number of shows by genre** | `13-count_shows_by_genre.sql` | Lists all genres and the number of shows linked to each. |
+| **14. My genres** | `14-my_genres.sql` | Lists all genres of the show Dexter. |
