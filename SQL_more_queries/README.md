@@ -19,3 +19,4 @@ This project covers advanced SQL concepts in MySQL 8.0 including user privilege 
 | **4. ID can't be null** | `4-never_empty.sql` | Creates the table id_not_null with default value 1 for id. |
 | **5. Unique ID** | `5-unique_id.sql` | Creates the table unique_id with unique id constraint and default value 1. |
 | **6. States table** | `6-states.sql` | Creates database hbtn_0d_usa and table states with auto-increment primary key. |
+| **7. Cities table** | `7-cities.sql` | Creates table cities with foreign key constraint referencing states table. |
