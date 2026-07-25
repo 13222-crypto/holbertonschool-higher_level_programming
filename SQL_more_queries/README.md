@@ -20,3 +20,4 @@ This project covers advanced SQL concepts in MySQL 8.0 including user privilege 
 | **5. Unique ID** | `5-unique_id.sql` | Creates the table unique_id with unique id constraint and default value 1. |
 | **6. States table** | `6-states.sql` | Creates database hbtn_0d_usa and table states with auto-increment primary key. |
 | **7. Cities table** | `7-cities.sql` | Creates table cities with foreign key constraint referencing states table. |
+| **8. Cities of California** | `8-cities_of_california_subquery.sql` | Lists all cities of California without using JOIN. |
