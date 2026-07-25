@@ -1,6 +1,6 @@
 # SQL - More Queries
 
-This project covers advanced SQL concepts in MySQL 8.0 including user privilege management, primary/foreign key constraints, JOIN operations (INNER, LEFT, RIGHT), subqueries, and UNIONs.
+This project covers advanced SQL concepts in MySQL 8.0 including user privilege management, primary/foreign key constraints, JOIN operations (INNER, LEFT, RIGHT), subqueries, aggregation functions, and UNIONs.
 
 ## Requirements
 
@@ -28,4 +28,7 @@ This project covers advanced SQL concepts in MySQL 8.0 including user privilege 
 | **13. Number of shows by genre** | `13-count_shows_by_genre.sql` | Lists all genres and the number of shows linked to each. |
 | **14. My genres** | `14-my_genres.sql` | Lists all genres of the show Dexter. |
 | **15. Only Comedy** | `15-comedy_only.sql` | Lists all Comedy shows in the database hbtn_0d_tvshows. |
-| **16. List shows and genres** | `16-shows_by_genre.sql` | Lists all shows and all genres linked to each show, displaying NULL if unlinked. |
+| **16. List shows and genres** | `16-shows_by_genre.sql` | Lists all shows and all genres linked to each show. |
+| **17. Not my genre** | `100-not_my_genres.sql` | Lists all genres not linked to the show Dexter. |
+| **18. No Comedy tonight!** | `101-not_a_comedy.sql` | Lists all shows without the genre Comedy. |
+| **19. Rotten tomatoes** | `102-rating_shows.sql` | Lists all shows by their total sum of ratings. |
